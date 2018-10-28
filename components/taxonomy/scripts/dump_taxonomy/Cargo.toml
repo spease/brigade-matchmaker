@@ -1,0 +1,16 @@
+[package]
+name = "dump_taxonomy"
+version = "0.1.0"
+authors = ["Steven Pease <peasteven@gmail.com>"]
+
+[dependencies]
+failure = "0.1.2"
+mongodb = "0.3.10"
+serde_derive = "1.0.75"
+serde = "1.0.75"
+itertools = "0.7.8"
+derive_more = "0.13.0"
+heck = "0.3.0"
+toml = "0.4.8"
+titlecase = "0.10.0"
+quicli = "0.3.1"
