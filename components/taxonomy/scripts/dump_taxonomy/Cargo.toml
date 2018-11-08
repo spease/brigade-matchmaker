@@ -1,5 +1,5 @@
 [package]
-name = "dump_taxonomy"
+name = "taxonomy"
 version = "0.1.0"
 authors = ["Steven Pease <peasteven@gmail.com>"]
 
@@ -11,6 +11,9 @@ serde = "1.0.75"
 itertools = "0.7.8"
 derive_more = "0.13.0"
 heck = "0.3.0"
-toml = "0.4.8"
+toml = { git = "https://github.com/spease/toml-rs.git", branch = "allow-newtype-key" }
 titlecase = "0.10.0"
-quicli = "0.3.1"
+quicli = { git = "https://github.com/spease/quicli.git", branch = "add-backtrace" }
+log = "0.4.6"
+serde_json = "1.0.32"
+bson = "0.12.3"
